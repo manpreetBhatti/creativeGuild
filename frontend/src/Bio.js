@@ -10,7 +10,7 @@ class Bio extends React.Component {
   	{
   	return (
 	    <div className="Bio">
-	      <Container>
+	      {this.props.showDetails?<Container>
 	      	<Row>
 	      		<Col sm={12} md={3}>
 	      			<img src={this.props.profile_picture} alt="profile Image"/>
@@ -32,7 +32,13 @@ class Bio extends React.Component {
 	      			</Row>
 	      		</Col>
 	      	</Row>
-	      </Container>
+	      </Container>:<Container>
+	      	<Row>
+	      		<Col>
+	      			<h2 className="text-center">Details Not Fetched</h2>
+	      		</Col>
+	      	</Row>
+	      </Container>}
 	    </div>);
   };
 }
