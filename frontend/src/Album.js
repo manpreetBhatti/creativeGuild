@@ -9,7 +9,7 @@ class Album extends React.Component {
   	{
   	return (
 		<div className="album_details">
-			<div className="album_cover" style={{backgroundImage: `url(${this.props.album.img})`}}>
+			<div className="album_cover" style={{backgroundImage: `url(${this.props.album.cover_image})`}}>
 				<div></div>
 				<p>{this.props.album.title}</p>
 			</div>
