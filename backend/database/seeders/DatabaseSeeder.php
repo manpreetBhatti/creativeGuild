@@ -28,42 +28,48 @@ class DatabaseSeeder extends Seeder
 	      "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	      "cover_image" => "img/landscape1.jpeg",
 	      "featured" => 1,
-	      "user_id" => 1
+	      "user_id" => 1,
+	      "created_at" => "2015-05-01",
 	    ],
 	    [
 	      "title" => "New West Calgary",
 	      "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	      "cover_image" => "img/landscape2.jpeg",
 	      "featured" => 0,
-	      "user_id" => 1
+	      "user_id" => 1,
+	      "created_at" => "2016-05-01",
 	    ],
 	    [
 	      "title" => "Australian Landscape",
 	      "description" =>  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	      "cover_image" => "img/landscape3.jpeg",
 	      "featured" => 0,
-	      "user_id" => 1
+	      "user_id" => 1,
+	      "created_at" => "2016-05-01",
 	    ],
 	    [
 	      "title" => "Halvergate Marsh",
 	      "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	      "cover_image" => "img/landscape4.jpeg",
 	      "featured" => 0,
-	      "user_id" => 1
+	      "user_id" => 1,
+	      "created_at" => "2014-04-01",
 	    ],
 	    [
 	      "title" => "Rikkis Landscape",
 	      "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	      "cover_image" => "img/landscape5.jpeg",
 	      "featured" => 1,
-	      "user_id" => 1
+	      "user_id" => 1,
+	      "created_at" => "2010-09-01",
 	    ],
 	    [
 	      "title" => "Kiddi Kristjans Iceland",
 	      "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	      "cover_image" => "img/landscape6.jpeg",
 	      "featured" => 1,
-	      "user_id" => 1
+	      "user_id" => 1,
+	      "created_at" => "2015-07-21",
 	    ]
   ]);
 
