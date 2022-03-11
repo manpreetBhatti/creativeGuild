@@ -18,7 +18,7 @@ class CreateAlbums extends Migration
             $table->string('title');
             $table->string('description')->nullable();
             $table->string('cover_image')->nullable();
-            $table->integer('featured')->nullable();
+            $table->boolean('featured')->nullable();
             $table->timestamps();
 
             $table->foreignId('user_id')->constrained('users');
