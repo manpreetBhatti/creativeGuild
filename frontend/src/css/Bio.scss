@@ -1,0 +1,41 @@
+.Bio{
+	max-width: 1024px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px 10px;
+    max-height: 235px;
+    margin: auto;
+
+    p{
+    	font-size: 14px;
+    }
+
+    h5{
+    	font-size: 14px;
+    	color: #716f6f;
+    	margin-bottom: 0px;
+    	font-weight: bold;
+    }
+
+    img{
+    	height: 170px;
+    	border-radius: 50%;
+    }
+
+    .contactDetails{
+    	
+    	p{
+    		color: #dc359d;
+    	}
+    }
+
+    .bio_details{
+    	color: #666;
+    }
+
+    @media (max-width: 425px)
+    {
+    	max-height: 454px;
+    	text-align: center;
+    }
+}
