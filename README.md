@@ -1,5 +1,5 @@
 # creativeGuild
-This is the repository for evaluation
+This is the repository for sample code 
 
 #Steps to run the application 
 1. Clone this repository 
@@ -8,7 +8,7 @@ This is the repository for evaluation
 4. Run the `php artisan db:seed`.
 5. Run `php artisan`.
 
-#Thought Process and steps followed to complete the evaluation
+#Thought Process and steps followed 
 1. Created the frontend according to the wire frame using the constant json given in the example.
 2. The CSS is an estimate looking at the design.
 3. Created the Database structure based on the json and created the migration files.
